@@ -1,0 +1,11 @@
+{
+  "engine": "graphforge",
+  "github": "martialsystems/graphforge",
+  "track": "main",
+  "remote": "origin",
+  "min_version": "0.6.0",
+  "policy": "report_only",
+  "local_candidates": ["~/graphforge"],
+  "require_product_laws": true,
+  "note": "gf_cheat: LPLC2-to-GF leak is template coupling; closed-form engine; do not restamp parent fly_vial F. VBD is the finish gate."
+}

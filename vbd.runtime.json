@@ -1,0 +1,26 @@
+{
+  "runtime_checks": [
+    {
+      "id": "unit-tests",
+      "argv": [".venv/bin/python", "-m", "pytest", "tests/", "-q"],
+      "timeout_s": 120,
+      "paths": [
+        "src/**",
+        "tests/**",
+        "cheatforge/**",
+        "data/**",
+        "logs/**",
+        "README.md",
+        "AGENTS.md",
+        "description.txt",
+        "vbd.runtime.json"
+      ]
+    },
+    {
+      "id": "cheatforge-sanity",
+      "argv": [".venv/bin/python", "cheatforge/scripts/sanity_cheatforge.py"],
+      "timeout_s": 60,
+      "paths": ["cheatforge/**", "tests/test_cheatforge_laws.py"]
+    }
+  ]
+}
