@@ -13,7 +13,7 @@ from gf_cheat.paths import LOGS, REPO
 from gf_cheat.population import run_experiment, write_run
 
 BANNER = (
-    "Select against giant-fiber escape. Reward LPLC2-only. Outcross. Watch GF return."
+    "Penalize giant-fiber escape. Reward LPLC2-only. Outcross to GF jumpers."
 )
 
 

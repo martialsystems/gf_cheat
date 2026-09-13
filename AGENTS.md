@@ -12,7 +12,7 @@ Do not claim the giant fiber acquired a skill, that the fly chose, or that the m
 
 Do not add FANC, animation, or a free-choice mating model. Mating is random. Selection is the fitness rule.
 
-Do not retune `LEAK0` after a run to force cheat-back or force GF off.
+Do not retune `LEAK0` after a run to force GF off or force a follow rise. Locked answer is mixing: selection drops P(use GF); a 50% outcross to jumpers undoes it. Follow did not climb. Do not call that a heist. Leak=0 vs 0.6 is unbuilt.
 
 Pin is `cheatforge/`. Laws: claim bans, engine order, template leak is not trained, parent F not restamped. Engine checkout `~/graphforge`. No catalog/`surfaces.json` unless asked. Verify-before-done is the finish gate.
 

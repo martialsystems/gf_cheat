@@ -1,1 +1,1 @@
-Select against giant-fiber escape. Reward LPLC2-only. Outcross to GF jumpers. Watch whether GF cheats back in.
+Seed 1, N=400: P(use GF) 1.000 → 0.160 under a GF penalty, then 0.590 after a 50% outcross to GF jumpers. Follow ended 0.520. The cell returned with the normals. LEAK0=0.6 is template coupling, not a trained weight.

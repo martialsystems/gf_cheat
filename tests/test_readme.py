@@ -19,4 +19,9 @@ def test_readme_question_first() -> None:
     log = REPO / "logs" / "select_outcross.json"
     assert log.is_file()
     data = json.loads(log.read_text(encoding="utf-8"))
-    assert f"select_end = {data['p_used_gf_select_end']:.3f}" in text or f"{data['p_used_gf_select_end']:.3f}" in text
+    assert f"{data['p_used_gf_select_end']:.3f}" in text
+    assert "The cell returned with the normals." in text
+    assert "0.5 × 0.160 + 0.5 × 1.0 = 0.580" in text
+    assert "Follow then fell to 0.520" in text
+    desc = (REPO / "description.txt").read_text(encoding="utf-8").strip()
+    assert desc.startswith("Seed 1, N=400: P(use GF) 1.000")
